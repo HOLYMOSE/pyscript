@@ -5,7 +5,8 @@ def write(name, desc):
   Element(name).element.innerText = desc
 
 # 하단 버튼 링크 연결 함수     
-=def button(*args):+  link = "https://open.spotify.com/yser/es52z9sd2vknvo42?si=Tk3gXLNFRNqEDthvTGCOBw&utm_source=copy-link" # https:// 꼭 붙여야 연결됩니다!
+def button(*args):
+  link = "https://open.spotify.com/yser/es52z9sd2vknvo42?si=Tk3gXLNFRNqEDthvTGCOBw&utm_source=copy-link" # https:// 꼭 붙여야 연결됩니다!
   webbrowser.open(link)
 
 # 배경 색깔 설정 함수
