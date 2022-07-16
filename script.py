@@ -30,7 +30,7 @@ write("button", "spotify profil")
 
 # 상세설명에 들어갈 제목과 글 설정
 informations = {
-  "like": "camera1"==,
+  "like": "camera1",
   "habit": "listening to music",
   "animal": "penguin",
   "want": "camera and leng"
